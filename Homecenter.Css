@@ -1,0 +1,77 @@
+
+/* Estilo de la letra */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+
+:root {
+    --background: linearGradient(135deg, #667eea7e 0%, #764ba298);
+    --color-primary: #667eea;
+    --boton-padding: 20px 40px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.subtitle{
+    color: var(--color-primary);
+}
+
+.nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 70px;
+    align-items: center;
+    font-weight: 700;
+}
+
+.nav--footer{
+    font-weight: 300;
+    justify-content: flex-start;
+}
+
+.nav__items{
+    color: #667eea;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 0.3px 0.9px;
+    font-weight: inherit;
+}
+
+.nav__items--cta{
+    border: 1px solid #667eea;
+}
+
+footer_icons
+
+.footer {
+    background: var(--color-primary);
+}
+
+.footer__icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer__container-icons{
+    display:  inline-block;
+    width: 60px;
+    height: 60px;
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.footer__icons{
+    color: inherit;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.fab.footer__icons{
+    line-height: 60px;
+}
+.nav__items--footer{
+    padding: 1px solid black;
+}
